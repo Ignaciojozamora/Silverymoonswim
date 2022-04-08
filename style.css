@@ -79,7 +79,7 @@ a {
     background-color: #BFA1BC;
     font-family: alta-light;
     font-weight: bold;
-    padding: 2rem;
+    padding: 6rem;
     flex-wrap: wrap;
 }
 
@@ -95,7 +95,7 @@ a {
     justify-content: center;
     align-items: center;
     max-width: 400px;
-    padding: 10px;
+    padding: 1rem;
     transition: all 1.5s;
 }
 
