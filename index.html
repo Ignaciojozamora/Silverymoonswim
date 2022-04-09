@@ -13,35 +13,32 @@
 <body>
     <!-- Comienzo header -->
     <header>
-        <nav>
-            <div class="logo">
-                <a href="/index.html">
-                    <img src="/multimedia/images/silvery/logosilvery.jpeg" width="80%" alt="logo" />
-                </a>
-            </div>
-            <!-- Logo a la izquierda -->
-
-            <div class="header-menu">
-                <div class="texto-menu">
-                    <a href="/index.html">Home</a>
-                </div>
-                <!-- home -->
-                <div class="texto-menu">
-                    <a href="/pages/coleccionurbana.html">Coleccion Urbana</a>
-                </div>
-                <!-- coleccion urbana -->
-                <div class="texto-menu">
-                    <a href="/pages/nuevacoleccion.html">Nueva Colección</a>
-                </div>
-                <!-- Nueva actual -->
-                <div class="texto-menu">
-                    <a href="/pages/coleccionesanteriores.html">Colecciones Anteriores</a>
-                </div>
-                <!-- colecciones anteriores-->
-                <div class="texto-menu">
-                    <a href="/pages/contacto.html">Contacto</a>
-                </div>
-                <!-- Contacto -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <a class="logo" href="#"><img src="./multimedia/images/silvery/logosilvery.jpeg" alt="" width="80%"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav header-menu">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/pages/coleccionurbana.html">Coleccion Urbana</a>
+                  </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link" href="/pages/nuevacoleccion.html">Nueva Coleccion</a>
+                </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/pages/coleccionesanteriores.html">Colecciones Anteriores</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/pages/contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
             </div>
         </nav>
     </header>
@@ -52,7 +49,7 @@
 
     <!-- carrousel -->
     <div class="carrousel-container">
-    <div id="carouselExampleIndicators" class="carousel slide w-25" data-bs-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide w-100" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
