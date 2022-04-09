@@ -60,6 +60,11 @@ header nav {
 
 a {
     text-decoration: none;
+    color: #333333;
+}
+
+a:hover {
+    color: #5e485c
 }
 
 /* propiedades de titulo */
@@ -71,6 +76,9 @@ a {
     background-color: #BFA1BC;
     font-size: 400%;
     text-align: center;
+    margin-bottom: 0rem; 
+    font-weight: 500;
+    line-height: 1;
 }
 
 .container-colecciones {
@@ -185,3 +193,16 @@ a {
     text-align: right;
 }
 
+/* imagenes carrousel */
+
+
+.carousel-item {
+height: 450px;
+}
+.carrousel-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #BFA1BC;
+
+}
