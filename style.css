@@ -112,6 +112,7 @@ a:hover {
     max-width: 400px;
     padding: 1rem;
     transition: all 1.5s;
+    min-width: 250px;
 }
 
 /* animaciones para fotos */
