@@ -142,7 +142,7 @@ a:hover {
   font-family: alta-light;
   font-weight: bold;
   grid-template-columns: 75% 25%;
-  grid-template-rows: 3r 1fr 1fr 1fr;
+  grid-template-rows: 3fr 1fr 1fr 1fr;
   align-items: center;
   grid-template-areas: "nosotros  redes1" "nosotros  redes2" "nosotros  redes3" "derechos  derechos";
 }
@@ -151,11 +151,14 @@ a:hover {
 .footertext {
   grid-area: nosotros;
   margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 /* area de redes */
 .footerbox img {
-  width: 15%;
+  max-width: 75px;
+  min-width: 50px;
+  width: 30%;
   padding-left: 5px;
 }
 
