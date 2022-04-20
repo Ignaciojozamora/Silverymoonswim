@@ -1,0 +1,29 @@
+.container-colecciones {
+    display: flex;
+    justify-content: space-around;
+    background-color: #BFA1BC;
+    font-family: alta-light;
+    font-weight: bold;
+    padding: 6rem;
+    flex-wrap: wrap;
+    img {
+        max-width: 100%;
+        margin-bottom: 1rem;
+        align-self: center;
+    }
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    /* width: 30%; */
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    padding: 1rem;
+    transition: all 1.5s;
+    min-width: 250px;
+    &:hover {
+        transform: scale(1.2);
+    }
+}

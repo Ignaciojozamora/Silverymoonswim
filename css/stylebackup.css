@@ -1,0 +1,243 @@
+/* Paleta de colores
+#D9D9D9
+#CCCCCC
+#A18F9F
+#BFA1BC
+#7A6478
+#CCCCCC
+#A18F9F
+*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: alta-light;
+    src: url(../font/alta-light.otf);
+}
+
+header{
+background-color: #D9D9D9;
+
+
+}
+
+header nav {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+
+.logo  {
+    display: flex;
+    align-self: center;
+    width: 30%;
+    min-width: 300px;
+}
+
+
+
+.header-menu {
+    display: flex;
+    font-family: alta-light;
+    font-size: 150%;
+    font-weight: bold;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-right: 50px;
+
+}
+
+
+.texto-menu {
+        display: flex;
+        align-items: center;
+        text-justify: inter-ideograph;
+    }
+
+
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+a:hover {
+    color: #5e485c
+}
+
+/* propiedades de titulo */
+.titulo1{
+    display: flex;
+    justify-content: center;
+    font-family: alta-light;
+    padding: 1rem;
+    background-color: #BFA1BC;
+    font-size: 400%;
+    text-align: center;
+    margin-bottom: 0rem; 
+    font-weight: 500;
+    line-height: 1;
+}
+
+.container-colecciones {
+    display: flex;
+    justify-content: space-around;
+    background-color: #BFA1BC;
+    font-family: alta-light;
+    font-weight: bold;
+    padding: 6rem;
+    flex-wrap: wrap;
+}
+
+.urbana {
+    display: flex;
+    
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    /* width: 30%; */
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    padding: 1rem;
+    transition: all 1.5s;
+    min-width: 250px;
+}
+
+/* animaciones para fotos */
+
+.box:hover {
+    transform: scale(1.2);
+}
+
+.container-colecciones  img {
+    max-width: 100%;
+    margin-bottom: 1rem;
+    align-self: center;
+
+}
+
+/* estilos de footer */
+/* grid footer */
+.footer-container {
+    display: grid;
+    background-color: #D9D9D9;
+    font-family: alta-light;
+    font-weight: bold;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 3r 1fr 1fr 1fr;
+    align-items: center;
+    grid-template-areas:
+    "nosotros  redes1"
+    "nosotros  redes2"
+    "nosotros  redes3"
+    "derechos  derechos";
+}
+
+
+
+/* area de texto */
+
+
+
+.footertext {
+
+    grid-area: nosotros;
+    margin-left: 1rem;
+}
+
+/* area de redes */
+
+
+.footerbox img {
+    width: 15%;
+    padding-left: 5px;
+
+}
+/* cartel de derechos reservados */
+.derechos {
+    grid-area: derechos;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* grid redes */
+.redes1 {
+    display: grid;
+    grid-area: redes1;
+    display: flex;
+    justify-content: end;
+    padding-top: 1rem;
+    align-items: center;
+    text-align: right;
+}
+
+.redes2 {
+    display: grid;
+    grid-area: redes2;
+    display: flex;
+    justify-content: end;
+    padding-top: 1rem;
+    align-items: center;
+    text-align: right;
+}
+
+.redes3 {
+    display: grid;
+    grid-area: redes3;
+    display: flex;
+    justify-content: end;
+    padding-top: 1rem;
+    align-items: center;
+    text-align: right;
+}
+
+/* imagenes carrousel */
+
+
+.carousel-item {
+height: 450px;
+}
+.carrousel-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #BFA1BC;
+
+}
+
+/* mapa */
+
+.mapa {
+
+    width: 50%;
+    height: 50%;
+    min-width: 200px;
+    min-height: 200px;    
+
+}
+
+.conainer-contacto {
+    background-color: #BFA1BC;
+    display: flex;
+    justify-content: center;
+}
+
+.conainer-contacto p {
+    font-family: alta-light;
+    padding: 1rem;
+    background-color: #BFA1BC;
+    font-size: 200%;
+    text-align: center;
+    margin-bottom: 0rem; 
+    font-weight: 500;
+    line-height: 1;
+}

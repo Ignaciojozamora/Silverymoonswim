@@ -1,0 +1,36 @@
+header {
+    background-color: #D9D9D9;
+    
+    nav {
+        display: flex;
+    width: 100%;
+    justify-content: center;
+    }
+
+}
+
+.logo  {
+    display: flex;
+    align-self: center;
+    width: 30%;
+    min-width: 300px;
+}
+
+.header-menu {
+    display: flex;
+    font-family: alta-light;
+    font-size: 150%;
+    font-weight: bold;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-right: 50px;
+
+}
+
+.texto-menu {
+    display: flex;
+    align-items: center;
+    text-justify: inter-ideograph;
+}
