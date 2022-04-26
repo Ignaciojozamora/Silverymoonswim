@@ -1,46 +1,5 @@
-/* Paleta de colores
-#D9D9D9
-#CCCCCC
-#A18F9F
-#BFA1BC
-#7A6478
-#CCCCCC
-#A18F9F
-*/
-*{
-    padding: 0;
-    margin: 0;
-
-}
-
-@font-face {
-    font-family: alta-light;
-    src: url(../font/alta-light.otf);
-}
-
+@import '../scss/component/universales';
 @import '../scss/component/header';
-
-a {
-    text-decoration: none;
-    color: #333333;
-    &:hover {
-        color: #5e485c
-    }
-}
-
-.titulo1{
-    display: flex;
-    justify-content: center;
-    font-family: alta-light;
-    padding: 1rem;
-    background-color: #BFA1BC;
-    font-size: 400%;
-    text-align: center;
-    margin-bottom: 0rem; 
-    font-weight: 500;
-    line-height: 1;
-}
-
 @import '../scss/component/colecciones';
 @import '../scss/component/carousel';
 @import '../scss/component/contacto';
