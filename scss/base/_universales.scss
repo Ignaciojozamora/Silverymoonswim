@@ -1,4 +1,4 @@
-
+@import '../base/lista';
 *{
     padding: 0;
     margin: 0;
@@ -14,9 +14,9 @@
 
 a {
     text-decoration: none;
-    color: #333333;
+    color: nth($colores , 8);
     &:hover {
-        color: #5e485c
+        color: nth($colores , 9)
     }
 }
 
@@ -25,7 +25,7 @@ a {
     justify-content: center;
     font-family: alta-light;
     padding: 1rem;
-    background-color: #BFA1BC;
+    background-color: nth($colores , 4);
     font-size: 400%;
     text-align: center;
     margin-bottom: 0rem; 
