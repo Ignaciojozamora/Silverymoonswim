@@ -45,31 +45,17 @@
 
 /* grid redes */
 .redes1 {
-    display: grid;
     grid-area: redes1;
-    display: flex;
-    justify-content: end;
-    padding-top: 1rem;
-    align-items: center;
-    text-align: right;
+    @extend %redes
 }
 
 .redes2 {
-    display: grid;
     grid-area: redes2;
-    display: flex;
-    justify-content: end;
-    padding-top: 1rem;
-    align-items: center;
-    text-align: right;
+    @extend %redes
 }
 
 .redes3 {
-    display: grid;
+    
     grid-area: redes3;
-    display: flex;
-    justify-content: end;
-    padding-top: 1rem;
-    align-items: center;
-    text-align: right;
+    @extend %redes
 }

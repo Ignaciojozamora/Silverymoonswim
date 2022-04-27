@@ -162,28 +162,19 @@ header nav {
 
 /* grid redes */
 .redes1 {
-  display: grid;
   grid-area: redes1;
-  display: flex;
-  justify-content: end;
-  padding-top: 1rem;
-  align-items: center;
-  text-align: right;
 }
 
 .redes2 {
-  display: grid;
   grid-area: redes2;
-  display: flex;
-  justify-content: end;
-  padding-top: 1rem;
-  align-items: center;
-  text-align: right;
 }
 
 .redes3 {
-  display: grid;
   grid-area: redes3;
+}
+
+.redes1, .redes2, .redes3 {
+  display: grid;
   display: flex;
   justify-content: end;
   padding-top: 1rem;
