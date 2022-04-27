@@ -28,6 +28,11 @@ a:hover {
   line-height: 1;
 }
 
+.disclaimer {
+  display: none;
+  position: none;
+}
+
 header {
   background-color: #D9D9D9;
 }
