@@ -1,5 +1,7 @@
+@import '../base/lista';
+
 header {
-    background-color: #D9D9D9;
+    background-color: nth($colores , 1);
     
     nav {
         display: flex;

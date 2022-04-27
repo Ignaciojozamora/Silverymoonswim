@@ -1,3 +1,5 @@
+@import '../base/lista';
+
 .mapa {
 
     width: 50%;
@@ -8,7 +10,7 @@
 }
 
 .conainer-contacto {
-    background-color: #BFA1BC;
+    background-color: nth($colores , 4);
     display: flex;
     justify-content: center;
 }
@@ -16,7 +18,7 @@
 .conainer-contacto p {
     font-family: alta-light;
     padding: 1rem;
-    background-color: #BFA1BC;
+    background-color: nth($colores , 4);
     font-size: 200%;
     text-align: center;
     margin-bottom: 0rem; 

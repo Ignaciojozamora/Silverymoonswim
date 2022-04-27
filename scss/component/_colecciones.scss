@@ -1,7 +1,9 @@
+@import '../base/lista';
+
 .container-colecciones {
     display: flex;
     justify-content: space-around;
-    background-color: #BFA1BC;
+    background-color: nth($colores , 4);
     font-family: alta-light;
     font-weight: bold;
     padding: 6rem;
