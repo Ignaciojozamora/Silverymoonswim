@@ -1,4 +1,5 @@
 @import '../base/lista';
+@import '../base/mixins';
 
 header {
     background-color: nth($colores , 1);
@@ -21,7 +22,7 @@ header {
 .header-menu {
     display: flex;
     font-family: alta-light;
-    font-size: 150%;
+    @include fontsize (150%);
     font-weight: bold;
     justify-content: space-around;
     width: 100%;
