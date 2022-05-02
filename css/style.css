@@ -96,11 +96,7 @@ header nav {
   transform: scale(1.2);
 }
 
-.carousel-item {
-  height: 450px;
-}
-
-.carrousel-container {
+.carousel-item .carrousel-container {
   width: 100%;
   display: flex;
   justify-content: center;
