@@ -1,0 +1,21 @@
+/* media queries Mobile*/
+@media screen and (max-width: 700px) {
+    .footer-container{
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "nosotros  nosotros"
+    "redes1  redes1"
+    "redes2  redes2"
+    "redes3  redes3"
+    "derechos  derechos";
+    justify-content: start;
+}
+.redes1, .redes2, .redes3 {
+    justify-content: start;
+    padding-left: 1rem;
+    text-align: left;
+    flex-direction: row-reverse;
+}
+}
+
