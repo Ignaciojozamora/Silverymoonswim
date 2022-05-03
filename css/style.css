@@ -73,7 +73,8 @@ header nav {
   background-color: #BFA1BC;
   font-family: alta-light;
   font-weight: bold;
-  padding: 6rem;
+  font-size: 1.5rem;
+  padding: 2rem;
   flex-wrap: wrap;
 }
 .container-colecciones img {
@@ -87,10 +88,11 @@ header nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  justify-items: center;
   max-width: 400px;
   padding: 1rem;
+  margin: 1rem;
   transition: all 1.5s;
-  min-width: 370px;
 }
 .box:hover {
   transform: scale(1.2);
@@ -198,6 +200,11 @@ header nav {
     text-align: left;
     flex-direction: row-reverse;
   }
+
+  /* .container-colecciones {
+      flex-direction: column;
+      align-content: center;
+  } */
 }
 
 /*# sourceMappingURL=style.css.map */
