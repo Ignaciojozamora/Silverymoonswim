@@ -1,0 +1,39 @@
+@import '../base/lista';
+@import '../base/mixins';
+
+header {
+    background-color: nth($colores , 1);
+    
+    nav {
+        display: flex;
+    width: 100%;
+    justify-content: center;
+    }
+
+}
+
+.logo  {
+    display: flex;
+    align-self: center;
+    width: 30%;
+    min-width: 300px;
+}
+
+.header-menu {
+    display: flex;
+    font-family: alta-light;
+    @include fontsize (150%);
+    font-weight: bold;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-right: 50px;
+
+}
+
+.texto-menu {
+    display: flex;
+    align-items: center;
+    text-justify: inter-ideograph;
+}

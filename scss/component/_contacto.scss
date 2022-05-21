@@ -1,0 +1,28 @@
+@import '../base/lista';
+@import '../base/mixins';
+
+.mapa {
+
+    width: 50%;
+    height: 50%;
+    min-width: 200px;
+    min-height: 200px;    
+
+}
+
+.conainer-contacto {
+    background-color: nth($colores , 4);
+    display: flex;
+    justify-content: center;
+}
+
+.conainer-contacto p {
+    font-family: alta-light;
+    padding: 1rem;
+    background-color: nth($colores , 4);
+    @include fontsize (200%);
+    text-align: center;
+    margin-bottom: 0rem; 
+    font-weight: 500;
+    line-height: 1;
+}

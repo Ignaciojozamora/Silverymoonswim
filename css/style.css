@@ -1,0 +1,274 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: alta-light;
+  src: url(../font/alta-light.otf);
+}
+a {
+  text-decoration: none;
+  color: #333333;
+}
+a:hover {
+  color: #5e485c;
+}
+
+.titulo1 {
+  display: flex;
+  justify-content: center;
+  font-family: alta-light;
+  padding: 1rem;
+  background-color: #BFA1BC;
+  font-size: 400%;
+  text-align: center;
+  margin-bottom: 0rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.titulo2 {
+  display: flex;
+  justify-content: center;
+  font-family: alta-light;
+  padding: 1rem;
+  background-color: #BFA1BC;
+  font-size: 200%;
+  text-align: center;
+  margin-bottom: 0rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.disclaimer {
+  display: none;
+  position: none;
+}
+
+.form-row {
+  font-family: alta-light;
+  background-color: #BFA1BC;
+  font-size: 100%;
+  font-weight: bold;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.contact-form {
+  background-color: #BFA1BC;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-row input[type=text],
+.form-row input[type=email],
+.form-row input[type=number] {
+  background-color: #fff;
+  border: 1px solid #d6d9dc;
+  border-radius: 3px;
+  width: 100%;
+  padding: 7px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-row textarea {
+  background-color: #fff;
+  border: 1px solid #d6d9dc;
+  border-radius: 3px;
+  width: 100%;
+  padding: 7px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 200px;
+}
+
+.form-row button {
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #7A6478;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 40px;
+  cursor: pointer;
+}
+
+.form-row button:hover {
+  background-color: #A18F9F;
+}
+
+header {
+  background-color: #D9D9D9;
+}
+header nav {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  align-self: center;
+  width: 30%;
+  min-width: 300px;
+}
+
+.header-menu {
+  display: flex;
+  font-family: alta-light;
+  font-size: 150%;
+  font-weight: bold;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.texto-menu {
+  display: flex;
+  align-items: center;
+  text-justify: inter-ideograph;
+}
+
+.container-colecciones {
+  display: flex;
+  justify-content: space-around;
+  background-color: #BFA1BC;
+  font-family: alta-light;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+.container-colecciones img {
+  max-width: 100%;
+  margin-bottom: 1rem;
+  align-self: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  max-width: 400px;
+  padding: 1rem;
+  margin: 1rem;
+  transition: all 1.5s;
+}
+.box:hover {
+  transform: scale(1.2);
+}
+
+.carousel-item .carrousel-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #BFA1BC;
+}
+
+.mapa {
+  width: 50%;
+  height: 50%;
+  min-width: 200px;
+  min-height: 200px;
+}
+
+.conainer-contacto {
+  background-color: #BFA1BC;
+  display: flex;
+  justify-content: center;
+}
+
+.conainer-contacto p {
+  font-family: alta-light;
+  padding: 1rem;
+  background-color: #BFA1BC;
+  font-size: 200%;
+  text-align: center;
+  margin-bottom: 0rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.footer-container {
+  display: grid;
+  background-color: #D9D9D9;
+  font-family: alta-light;
+  font-weight: bold;
+  grid-template-columns: 75% 25%;
+  grid-template-rows: 3fr 1fr 1fr 1fr;
+  align-items: center;
+  grid-template-areas: "nosotros  redes1" "nosotros  redes2" "nosotros  redes3" "derechos  derechos";
+}
+
+/* area de texto */
+.footertext {
+  grid-area: nosotros;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+/* area de redes */
+.footerbox img {
+  max-width: 75px;
+  min-width: 50px;
+  width: 30%;
+  padding-left: 5px;
+}
+
+.derechos {
+  grid-area: derechos;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* grid redes */
+.redes1 {
+  grid-area: redes1;
+}
+
+.redes2 {
+  grid-area: redes2;
+}
+
+.redes3 {
+  grid-area: redes3;
+}
+
+.redes1, .redes2, .redes3 {
+  display: grid;
+  display: flex;
+  justify-content: end;
+  padding-top: 1rem;
+  align-items: center;
+  text-align: right;
+}
+
+/* media queries Mobile*/
+@media screen and (max-width: 700px) {
+  .footer-container {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas: "nosotros  nosotros" "redes1  redes1" "redes2  redes2" "redes3  redes3" "derechos  derechos";
+    justify-content: start;
+  }
+
+  .redes1, .redes2, .redes3 {
+    justify-content: start;
+    padding-left: 1rem;
+    text-align: left;
+    flex-direction: row-reverse;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

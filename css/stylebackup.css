@@ -14,7 +14,7 @@
 
 @font-face {
     font-family: alta-light;
-    src: url(font/alta-light.otf);
+    src: url(../font/alta-light.otf);
 }
 
 header{
@@ -59,11 +59,7 @@ header nav {
         text-justify: inter-ideograph;
     }
 
-/* .containermenufix {
-    display: flex;
-    justify-content: center;
-}
- */
+
 
 a {
     text-decoration: none;
